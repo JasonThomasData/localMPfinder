@@ -1,0 +1,134 @@
+/*
+#lessTag{
+	color: red;
+	font-size: 22px;
+}
+
+#moreTag{
+	color: blue;
+	font-size: 22px;
+}
+*/
+
+html, body { 
+	margin:0 auto; 
+	
+}
+
+h3, h4, p{
+	color: #525e6e;
+}
+
+
+
+#containerBox{
+	text-align:left;
+	//border: 1px solid #b8bec4;
+	padding:10px;
+	margin:10px;
+	padding-left:25px;
+	padding-right:25px;
+	position: relative;
+	padding-bottom:25px;
+}
+
+body{
+	width:100%;
+	max-width:650px;
+}
+.input-wrap {
+	display: block;
+	position: relative;
+	//height: 50px;
+}
+
+#inputBox{
+	position:relative;
+	width: 200px;
+	height: 30px;
+	font-size: 18px;
+	font-family: HelveticaNeueW01-75Bold;
+	-webkit-font-smoothing: antialiased;
+	padding-left: 10px;
+	color: #525e6e;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+
+#enterBox {
+	position: relative;
+	//left: 245px;
+	height: 30px !important;
+	font-size: 18px;
+	font-family: HelveticaNeueW01-75Bold;
+	margin-bottom: 15px;
+}
+
+#annotationBox {
+	margin-bottom:10px;
+	clear:all;
+}
+
+.electoralLabel {
+		  font-family: HelveticaNeueW01-75Bold;
+		  -webkit-font-smoothing: antialiased;
+		  font-size: 18px;
+		  line-height: 16px;
+		  letter-spacing: 1px;
+		  cursor: pointer;
+		  color: #525e6e;
+		  margin-top: 20px;
+		  margin-bottom: 10px;
+		  display:inline-block;
+		  padding-left: 5px;
+		  padding-right: 5px;
+}
+
+.electoralLabel:hover { 
+    text-decoration: underline;
+	text-weight:bold;
+}
+
+.electoralLabel:active { 
+    text-decoration: underline;
+}
+
+.electoralLabel:nth-child(2) { 
+    margin-left: -5px;
+}
+
+.makeLarge{
+	font-size:18px;
+	margin-bottom: 20px;
+}
+
+.makeHuge{
+	font-size:24px;
+	margin-bottom: 20px;
+}
+
+.shadowBox {
+	width:80%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+#appWrapper{
+	width:100%;
+	margin-left: 0%;
+	margin-left: 0%;
+}
+
+#mpDetails{
+	display: inline-block;
+}
+
+.answers {
+	color:#000000;
+}
+
+.marriageAnswers {
+	color:#e21d1d;
+}
